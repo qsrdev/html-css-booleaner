@@ -1,0 +1,125 @@
+/* Top of The page */
+#header {
+  height: 100px;
+  background-color: rgba(78, 160, 255, 255);
+  background-image: url(../img/pattern.png);
+  background-size: 400px;
+  background-origin: border-box;
+  background-repeat: repeat-x;
+  /* position: relative; */
+}
+
+#header img {
+  max-width: 50%;
+  max-height: 50%;
+  margin: 10px;
+  padding-top: 30px;
+  /* position: absolute;
+  left: 10px;
+  bottom: 10px; */
+}
+
+a {
+  all: unset;
+  color: rgba(32, 169, 229, 255);
+}
+
+/* Table Section */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+.tableheader {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgba(32, 169, 229, 255);
+  font-size: large;
+  min-height: 10%;
+}
+
+.tablerow1 {
+  font-size: large;
+  background-color: rgba(177, 229, 242, 255);
+}
+
+.tablerow2 {
+  font-size: large;
+  background-color: rgba(255, 255, 255, 255);
+}
+
+.tablerow {
+  font-size: large;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+/* End Table Section */
+
+.highlight {
+  background-color: yellow;
+}
+
+.footer-photos {
+  margin-top: 0;
+  font-size: small;
+}
+
+.text-paragraph {
+  font-size: large;
+}
+
+h1 {
+  font-size: xx-large;
+  margin-top: 9px;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+h2 {
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: large;
+  color: rgb(128, 128, 128);
+  font-weight: normal;
+}
+
+h3 {
+  margin-top: 0;
+  color: rgb(128, 128, 128);
+  font-size: small;
+  font-weight: normal;
+}
+
+.image-container {
+  height: 207px;
+  width: 311;
+  background-image: url(../img/monitor.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.image-container2 {
+  height: 207px;
+  width: 311;
+  background-image: url(../img/graph.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.overlay-text {
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  background-size: auto;
+}
+
+.box {
+  margin-left: 7%;
+  margin-right: 7%;
