@@ -99,14 +99,23 @@ h3 {
 }
 
 .image-container {
-  height: fit-content;
+  height: 207px;
+  width: 311;
   background-image: url(../img/monitor.jpg);
   background-position: left;
-  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
+.image-container2 {
+  height: 207px;
+  width: 311;
+  background-image: url(../img/graph.jpg);
+  background-position: left;
   background-repeat: no-repeat;
 }
 .overlay-text {
   font-weight: bold;
   font-size: large;
   color: white;
+  background-size: auto;
 }
