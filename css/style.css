@@ -5,13 +5,23 @@
   background-size: 400px;
   background-origin: border-box;
   background-repeat: repeat-x;
-  position: relative;
+  /* position: relative; */
 }
 
 #header img {
   max-width: 50%;
   max-height: 50%;
-  position: absolute;
+  margin: 10px;
+  padding: 10px;
+  /* position: absolute;
   left: 10px;
-  bottom: 10px;
+  bottom: 10px; */
+}
+
+p {
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 0;
 }
