@@ -33,7 +33,6 @@ table {
 th,
 td {
   text-align: left;
-  padding: 8px;
 }
 
 .tableheader {
@@ -58,11 +57,16 @@ td {
   font-size: large;
 }
 
+.w-50 {
+  width: 50%;
+}
+
 /* End Table Section */
 
 .highlight {
   background-color: yellow;
 }
+
 .footer-photos {
   margin-top: 0;
   font-size: small;
@@ -92,4 +96,17 @@ h3 {
   color: rgb(128, 128, 128);
   font-size: small;
   font-weight: normal;
+}
+
+.image-container {
+  height: fit-content;
+  background-image: url(../img/monitor.jpg);
+  background-position: left;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+.overlay-text {
+  font-weight: bold;
+  font-size: large;
+  color: white;
 }
