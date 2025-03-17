@@ -19,8 +19,12 @@
   bottom: 10px; */
 }
 
-/* Table Section */
+a {
+  all: unset;
+  color: rgba(32, 169, 229, 255);
+}
 
+/* Table Section */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -56,6 +60,9 @@ td {
 
 /* End Table Section */
 
+.highlight {
+  background-color: yellow;
+}
 .footer-photos {
   margin-top: 0;
   font-size: small;
@@ -67,11 +74,13 @@ td {
 
 h1 {
   font-size: xx-large;
+  margin-top: 9px;
   margin-bottom: 0;
+  font-weight: bolder;
 }
 
 h2 {
-  margin-top: 5px;
+  margin-top: 3px;
   margin-bottom: 0;
   font-size: large;
   color: rgb(128, 128, 128);
